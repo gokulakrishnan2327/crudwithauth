@@ -1,60 +1,81 @@
-# MERN Stack | Login, Registration and CRUD app - For Beginners
 
-## 🔆 🍃 Nodejs(Express.js) + mongoDB + mongoose + JWT + react.js + material-ui + axios(API call)
+# CRUD with Authentication — MERN Stack
 
-Simlple example of user registration, login and CRUD action with backend restAPI using mongoDB, Nodejs, Express.js, and mongoose, authentication using JWT token also pagination and frontend using react.js and material-ui api calling with axios.
+A beginner-friendly project demonstrating **Login**, **Registration**, and **CRUD operations** using the MERN stack:
 
-This project is just to help MERN stack beginners learn the basics, intentionally made for our students at [Volunteer Tech®](https://volunteer-tech.com/) as a reference material. 
+**MongoDB + Express.js + React.js + Node.js + JWT + Material-UI + Axios**
 
-[![flow](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/development/MERN.gif)](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/development/MERN.gif)
+---
 
-### This Project is a Simple ReactJS Project which demonstrates the following
-##### Backend
-- API to register and login user.
-- API using which loged in user can add, edit and update it's product.
-- Pagination API to give list of perticular user's added product.
-- JWT token authentication.
+## 🔧 Features
 
-##### Frontend
-- Creating a Component in React and creat routing.
-- Using react and material UI created form to login user and can register new user.
-- Product add, edit, delete and pagination also you can search product by name.
-- Making HTTP calls using Axios.
-- Calling multipart api with image upload.
+### 🔙 Backend
 
-### Prerequisites
-Below noted things you need to install to run this project in your system
+* REST APIs for user registration and login
+* JWT-based user authentication
+* Authenticated APIs for adding, editing, deleting, and listing user-specific products
+* Pagination and search functionality
 
-- Node.js
-- NPM
-- MongoDB
+### 🔜 Frontend
 
-### To Setup
-Clone or download this repository
+* React components with routing
+* Material-UI based forms for login and registration
+* Product management with add/edit/delete functionality
+* Pagination and search by product name
+* Image upload using multipart API calls
+* Axios for API integration
 
-1. `cd registration-and-login-application-with-crud-operation-using-MERN-stack/backend`
-2. `npm install`
-3. `cd registration-and-login-application-with-crud-operation-using-MERN-stack/frontend`
-4. `npm install`
+---
 
-### To Run
-To run node server
-1. `cd registration-and-login-application-with-crud-operation-using-MERN-stack/backend`
-2. `node server.js`
+## 📦 Prerequisites
 
-To run react frontend
-1. `cd registration-and-login-application-with-crud-operation-using-MERN-stack/frontend`
-2. `npm start`
+Ensure the following are installed:
 
-<!-- ### Login and Register screen
-[![login](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/login.png)](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/login.png)[![register](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/register.png)](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/register.png)
+* Node.js
+* NPM
+* MongoDB
 
-### Product Add and Edit screen
-[![add](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/add.png)](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/add.png)  [![edit](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/edit.png)](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/edit.png)
+---
 
-### Product Pagination screen
-[![dashboard](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/dashboard.png)](https://github.com/FSojitra/Registration-Login-and-CRUD-Action-using-MERN-stack/blob/master/dashboard.png) -->
+## 📁 Setup
 
-## Contributing
+1. Clone or download this repository.
+2. Install backend dependencies:
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+   ```bash
+   cd crudwithauth/backend
+   npm install
+   ```
+3. Install frontend dependencies:
+
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+---
+
+## 🚀 Run the Project
+
+### Backend
+
+```bash
+cd crudwithauth/backend
+node server.js
+```
+
+### Frontend
+
+```bash
+cd crudwithauth/frontend
+npm start
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For significant changes, please open an issue to discuss your ideas before proceeding.
+
+---
+
